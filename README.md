@@ -55,7 +55,7 @@ Esta versão **não possui servidor nem banco de dados**: todas as informações
 **Pré-requisito:** [Node.js](https://nodejs.org/) 18 ou superior.
 
 ```bash
-git clone https://github.com/vh-camelo/Aplicativo_de_Cuidados_Pos_Operatorios.git
+git clone https://github.com/SEU_USUARIO/Aplicativo_de_Cuidados_Pos_Operatorios.git
 cd Aplicativo_de_Cuidados_Pos_Operatorios
 npm install
 npm run dev
@@ -77,6 +77,8 @@ npm run build
 - Incluir vídeos específicos para cada guia de cuidado (hoje há um vídeo de exemplo)
 - Adicionar testes automatizados e transformar o app em PWA para uso no celular
 
-## Créditos
+## Créditos e contribuição
 
-O projeto foi iniciado a partir de um protótipo gerado no [Figma Make](https://www.figma.com/design/AaDTnehJqcoQcWOufzXVWm/Aplicativo-de-Cuidados-P%C3%B3s-Operat%C3%B3rios). Os componentes de interface vêm do [shadcn/ui](https://ui.shadcn.com/) (licença MIT) e as fotos do [Unsplash](https://unsplash.com/), conforme descrito em [`ATTRIBUTIONS.md`](./ATTRIBUTIONS.md).
+O ponto de partida foi um protótipo visual gerado no [Figma Make](https://www.figma.com/design/AaDTnehJqcoQcWOufzXVWm/Aplicativo-de-Cuidados-P%C3%B3s-Operat%C3%B3rios). A partir dele, desenvolvi a lógica de funcionamento do app: a lógica das telas e o armazenamento dos dados no navegador com `localStorage`, organizado por perfil.
+
+Os componentes de interface vêm do [shadcn/ui](https://ui.shadcn.com/) (licença MIT) e as fotos do [Unsplash](https://unsplash.com/), conforme descrito em [`ATTRIBUTIONS.md`](./ATTRIBUTIONS.md).
